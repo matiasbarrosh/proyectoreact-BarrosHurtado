@@ -5,25 +5,17 @@ import NavBar from "./components/NavBar"
 import Main from "./components/Main"
 import Footer from "./components/Footer"
 import ItemListContainer from "./components/ItemListContainer"
-import CartWidget from "./components/CartWidget"
+import { getProductos } from "./utils"
+import { BrowserRouter } from "react-router-dom"
 const App = () => {
 
-  const nombre = "Matias"
-  const edad = 23
-
   return (
-    <>
-
-    <NavBar/>
-
-    <ItemListContainer
-    nombre="Matias"
-    edad={23}
-    />
-
-    <Footer/>
-
-    </>
+    <BrowserRouter>
+      <NavBar/>
+      <ItemListContainer/>
+      <Main/>
+      <Footer/>
+    </BrowserRouter>
   )
 }
 

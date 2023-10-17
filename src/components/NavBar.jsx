@@ -1,14 +1,14 @@
-
+import { Link } from "react-router-dom"
 import CartWidget from "./CartWidget"
 const Header = () => {
     const notificationCount = 3;
     return(
         <header id="header" className="flex justify-between p-4 bg-blue-400 shadow-md">
-        <h1><a href="../index.html">Home</a></h1>
+        <h1><Link to="/">Home</Link></h1>
         <nav className="navbar">
-            <a href="#">Productos</a>
-            <a href="#">Ofertas</a>
-            <a href="#">Sobre Nosotros</a>
+            <Link to="/clothing">Ropa</Link>
+            <Link to="/joyas">Joyeria</Link>
+            <Link to="/cart">Carrito</Link>
             <CartWidget notificationCount={notificationCount} />
         </nav>
         </header>
