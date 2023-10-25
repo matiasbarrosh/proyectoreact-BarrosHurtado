@@ -1,3 +1,4 @@
+//Presenta toda la data sobre productos segun que categoria o si estamos situados en la pagina principal del sitio
 import { Link } from "react-router-dom"
 function Presentacional(props){
 

@@ -1,3 +1,5 @@
+//Lista de todos los productos (llamese itemListContainer) muestra todos los productos de la API
+//Y les hace display en presentacional.jsx
 import { useState , useEffect } from "react"
 import Presentacional from "./Presentacional"
 import { getProductos } from "../utils"

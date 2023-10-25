@@ -1,3 +1,5 @@
+//Pide los objetos individuales segun el id que se le pasa por params (ingresado en url o el producto que se clickee)
+//Hace display de todos los detalles del producto en cuestion
 import { useParams } from "react-router-dom"
 import { useState, useEffect } from "react"
 import { getProductos } from "../utils"

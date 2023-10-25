@@ -1,3 +1,4 @@
+//Hace display a todos los objetos de la categoria Joyeria mediante presentacional
 import { useState , useEffect } from "react"
 import Presentacional from "./Presentacional"
 import { getJoyeria } from "../utils"
