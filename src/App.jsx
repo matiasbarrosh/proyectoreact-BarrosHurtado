@@ -1,6 +1,3 @@
-//Componentes + JSX
-//Esto es un componente
-//Los componentes son funciones que arrancan con MAYUSC, siempre tiene retorno y solo pueden retornar un elemento
 import { Route, Routes } from "react-router-dom"
 import NavBar from "./components/NavBar"
 import Footer from "./components/Footer"
